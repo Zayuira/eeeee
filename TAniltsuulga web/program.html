@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="Stylesheet" href="Style.css" />
+  </head>
+  <body>
+     
+      
+    <div class="pagetwo"> 
+  <p class="spells">G <br> i <br>r <br>l <br>s  <br><br>
+     C <br>o <br>d <br>e <br> <br> P <br>
+     r <br>o <br>g <br>r <br>a <br>m</p>
+     <div>
+      <div class="allpic">
+        <img class="mySlide" src="images/gcode.jpg" />
+        <img class="mySlide" src="images/girlscodeAll.jpg" />
+        <img class="mySlide" src="images/gcodee.jpg" />
+      </div>
+      <div class="gg">
+        <p class="garchig">What I learned from Girls Code Program </p>
+        <p class="egnee"> 
+          -Interpersonal skills and openness    -Teamwork
+        </p>
+        </p>
+        <p class="egnee"> 
+          -Knowledge about JAVA, HTML ,CSS
+        </p>
+        <p class="egnee" > 
+          -Make a website(beginner)
+        </p>
+        <p class="egnee"> 
+          -Teamwork
+        </p>
+        <p class="egnee"> 
+          -Made a good friends
+        </p>
+      </div>
+     </div>
+          <div class="infoAbGC">
+            <p> The "Girls Code Program 2022" was 
+              aimed at reducing gender inequality
+               in the telecommunications and information 
+               technology sector, closing regional digital
+                divide, and training human resources for 
+                the sector. 
+                The program was initiated by 
+                B.Bolor-Erdene, State Secretary of the Ministry 
+                of Digital Development and Communications,
+                 and is being organized for the second year
+                  with the support of ONDO LLC, ICT Group,
+                   Tapatrip, Unitel, Skytel, Khan Bank, Golomt
+                    Bank, and Information and Communication
+                     Network. In total, more than 1,500 girls
+                      from all over Mongolia 
+                registered and 50 girls were selected. 
+            </p>
+          </p>
+          </div>
+          <div class="buttons">
+            <div class="logo">
+              <a href="/TAniltsuulga web/Zolzaya.html"
+                ><img
+                  src="images/girlscode.png"
+                  style="width: 150px; height: 150px"
+              /></a>
+            </div>
+            <div class="link"><a href="about.html"> About me </a></div>
+            <div class="link"><a href="program.html"> Girls Code Program </a></div>
+            <div class="link"><a href="Hobby.html"> Hobby </a></div>
+        
+          </div>
+      
+    </div>
+
+    <script>
+      var myIndex = 0;
+      pages();
+
+      function pages() {
+        var i;
+        var x = document.getElementsByClassName("mySlide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        if (myIndex >= x.length) {
+          myIndex = 0;
+        }
+        x[myIndex].style.display = "block";
+        myIndex++;
+        setTimeout(pages, 2000); 
+      }
+    </script>
+  </body>
+</html>

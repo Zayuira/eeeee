@@ -1,0 +1,326 @@
+body {
+  margin: auto;
+  width: 100vw;
+  height: 100vw;
+  /* background-repeat: no-repeat; */
+  background-image: linear-gradient(
+    to bottom,
+    #350655,
+    #416bca,
+    #4d74a3,
+    #3f6da7,
+    #17398a,
+    #350655
+  );
+
+  overflow-x: hidden;
+}
+.chemCon {
+  display: flex;
+  justify-content: end;
+  margin-right: 5vw;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  flex-direction: row;
+}
+.container {
+  margin-right: 2vw;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: end;
+}
+.logo {
+  font-size: 50px;
+  display: flex;
+  z-index: 1000;
+  flex-direction: row;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.MathButton {
+  text-align: center;
+  text-justify: center;
+  background-size: 100%;
+  margin: 20px;
+  margin-right: 5vw;
+  margin-bottom: 80px;
+}
+
+.CodeButton {
+  text-align: center;
+  text-justify: center;
+  background-size: 100%;
+  margin: 40px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 175px;
+  height: 200px;
+  perspective: 200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: rgb(255, 254, 254);
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-ch {
+  background-color: transparent;
+  width: 175px;
+  height: 200px;
+  perspective: 200px;
+}
+
+.flip-card-inner-ch {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.flip-card-ch:hover .flip-card-inner-ch {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-ch,
+.flip-card-back-ch {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-ch {
+  background-color: #bbb;
+  color: rgb(255, 253, 253);
+}
+
+.flip-card-back-ch {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-c {
+  background-color: transparent;
+  width: 175px;
+  height: 200px;
+  perspective: 200px;
+}
+
+.flip-card-inner-c {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.993);
+}
+
+.flip-card-c:hover .flip-card-inner-c {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-c,
+.flip-card-back-c {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-c {
+  background-color: #bbb;
+  color: rgb(252, 247, 247);
+}
+
+.flip-card-back-c {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.Vgnvvd {
+  margin-right: 40vw;
+  color: #c0d1d1;
+  display: flex;
+  font-family: Kanit, sans-serif;
+  font-size: 25px;
+  flex-direction: column-reverse;
+  text-align: justify;
+  justify-content: flex-start;
+}
+.AboutUs {
+  margin-left: 100px;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+.zuragnuud {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-left: 30px;
+}
+.profile {
+  border-radius: 50%;
+  width: 18vw;
+  height: 370px;
+  margin-left: 14px;
+  padding-top: 10px;
+  transition: all 0.7s;
+  padding: 12px;
+  transition-timing-function: linear;
+}
+
+.profile:hover {
+  padding: 12px;
+  background-color: #5f568a;
+}
+
+.ondo {
+  margin-left: 100px;
+}
+.ondo > a:hover {
+  opacity: 0.5;
+}
+.ondo > a > img {
+  width: 200px;
+  height: 80px;
+  border-radius: 15px;
+}
+.xamtragc > a:hover {
+  opacity: 0.5;
+}
+.iveen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+}
+.xamtragc {
+  display: flex;
+  flex-direction: row;
+}
+.xamtragc > a > img {
+  width: 280px;
+  height: 100px;
+  margin-left: 220px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.xamtragc > p {
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+.logo {
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(rgb(76, 29, 107), rgb(30, 54, 131));
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.chemCon1 {
+  display: flex;
+  justify-content: end;
+  margin-right: 5vw;
+  margin-bottom: 80px;
+  flex-direction: row;
+}
+.DemjilgZurag {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 50px;
+}
+.Demjigc {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 50px;
+}
+.go > a > img {
+  margin-left: 50px;
+  width: 180px;
+  height: 60px;
+  border-radius: 12px;
+}
+.go > a:hover {
+  opacity: 0.5;
+}
+.contact > img {
+  margin-left: 30px;
+  width: 150px;
+  height: 140px;
+}
+.igZur > img {
+  margin-left: 45px;
+  width: 50px;
+  height: 50px;
+}
+.insta {
+  display: flex;
+  flex-direction: row;
+}
+.iglink {
+  margin: 10px;
+  margin-top: 10px;
+}
+.iglink > a {
+  font-size: 25px;
+  color: #bbb;
+}
+.number {
+  font-size: 25px;
+  color: #bbb;
+}
+.callzurg > img {
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+.call {
+  display: flex;
+  flex-direction: row;
+}
+.contact {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

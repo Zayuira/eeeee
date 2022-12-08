@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zayaloz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="firstPage">
+      <div class="zuragud">
+        <img class="mySlides" src="images/IMG_7340.jpg" />
+        <img class="mySlides" src="images/IMG_7337 (1).jpg" />
+        <img class="mySlides" src="images/_Z9A5214.jpg" />
+        <img class="mySlides" src="images/IMG_7338.jpg" />
+      </div>
+
+      <div class="line">
+        <p class="flipX">Hi! I'm Zolzaya <br />Attendance of 2022</p>
+      </div>
+
+      <div class="buttons">
+        <div class="logo">
+          <a href="Zolzaya.html"
+            ><img
+              src="images/girlscode.png"
+              style="width: 150px; height: 150px"
+          /></a>
+        </div>
+        <div class="link"><a href="about.html"> About me </a></div>
+        <div class="link"><a href="program.html"> Girls Code Program </a></div>
+        <div class="link"><a href="Hobby.html"> Hobby </a></div>
+      </div>
+    </div>
+
+    <script>
+      var myIndex = 0;
+      slides();
+
+      function slides() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        if (myIndex >= x.length) {
+          myIndex = 0;
+        }
+        x[myIndex].style.display = "block";
+        myIndex++;
+        setTimeout(slides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>

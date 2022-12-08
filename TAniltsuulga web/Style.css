@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+}
+.zuragud > img {
+  width: 100%;
+}
+.name {
+  font-size: 35px;
+  margin: 100px;
+  color: black;
+}
+.firstPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 250px;
+}
+.line > .flipX {
+  text-align: center;
+  color: rgb(45, 45, 82);
+  padding: 16px;
+  /* margin-left: 50px; */
+  font-size: 70px;
+  font-family: initial;
+  margin-top: 300px;
+}
+
+/* crops animations that exceeds one line area */
+.line {
+  width: 100%;
+  height: 4rem;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+/* flipping class and key frames*/
+.flipX {
+  animation: 15s anim-flipX ease infinite;
+}
+@keyframes anim-flipX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+}
+body {
+  background-color: rgb(179, 190, 212);
+
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.buttons {
+  position: absolute;
+  overflow: hidden;
+  float: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  column-gap: 50px;
+
+  height: 100vh;
+  background: rgb(23, 23, 71);
+}
+.buttons > .link {
+  font-size: 40px;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 40px;
+}
+a {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(101, 137, 158);
+}
+.line > .year {
+  text-align: center;
+  color: rgb(45, 45, 82);
+  padding: 16px;
+  font-size: 40px;
+  font-family: initial;
+}
+.AboutMe > p {
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(26, 26, 66);
+}
+body {
+  background-color: rgb(198, 206, 226);
+}
+.info > p {
+  margin-left: 30px;
+  text-align: justify;
+  width: 50vw;
+  color: rgb(20, 33, 46);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.info > img {
+  width: 30%;
+  margin-left: 80px;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+}
+.Speak {
+  padding: 10px;
+  background: linear-gradient(rgb(24, 30, 110), rgb(98, 117, 182));
+  border-radius: 12px;
+  margin-left: 100px;
+  color: rgb(54, 54, 88);
+}
+.code {
+  padding: 10px;
+  background: linear-gradient(rgb(24, 30, 110), rgb(98, 117, 182));
+  border-radius: 12px;
+  margin-left: 100px;
+  color: rgb(54, 54, 88);
+}
+.code > p {
+  font-size: 20px;
+  color: aliceblue;
+}
+.Speak > .SmallTitle {
+  font-size: 30px;
+  color: rgb(246, 251, 255);
+}
+.Speak > p {
+  font-size: 20px;
+  color: aliceblue;
+}
+.code > .SmallTitle {
+  font-size: 30px;
+  color: rgb(241, 249, 255);
+}
+.Second {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+}
+.nuur {
+  display: flex;
+  flex-direction: column;
+}
+.allpic {
+  margin-top: 30px;
+  width: 100%;
+}
+.allpic > img {
+  width: 100%;
+  height: 100%;
+}
+.pagetwo {
+  display: grid;
+  grid-template-columns: 30px 2.5fr 1fr 150px;
+  grid-column-gap: 30px;
+}
+.infoAbGC {
+  margin-top: 30px;
+  padding: 20px;
+  color: rgb(22, 42, 59);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.infoAbGC > p {
+  font-size: 22px;
+}
+h1 {
+  padding: 20px;
+  color: rgb(68, 68, 122);
+  display: flex;
+  justify-content: center;
+}
+
+.egnee {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: rgb(218, 219, 228);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pagetwo > .spells {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(24, 30, 110);
+}
+.gg {
+  background-color: rgb(21, 25, 80);
+  border-radius: 20px;
+}
+.gg > .garchig {
+  display: flex;
+  justify-content: center;
+  color: rgb(227, 228, 241);
+  font-size: 25px;
+}
+
+.header {
+  margin: 0px;
+  font-size: 50px;
+  color: rgb(250, 250, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+.firsthalf > img {
+  margin: 10px;
+  width: 95%;
+}
+.draw {
+  margin-left: 50px;
+  font-size: 30px;
+  color: rgb(26, 26, 73);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.secondhalf {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.secondhalf > img {
+  margin: 10px;
+  margin-left: 30px;
+  margin-top: 25px;
+  width: 75%;
+}
+.thirdhalf {
+  margin-top: 90px;
+}
+.thirdhalf > img {
+  margin: 10px;
+  width: 95%;
+}
+.akademi > p {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(21, 21, 61);
+}
+.akademi > img {
+  margin: 10px;
+  width: 95%;
+}
+.secondhalf > p {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(21, 21, 61);
+}
+.others > p {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(21, 21, 61);
+}
+.others > img {
+  margin: 10px;
+  width: 90%;
+}
+.Exnii {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(20, 20, 53);
+}
+.link1 > a {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.link1 {
+  margin-top: 20px;
+}
+.TeamTitle {
+  margin: 0px;
+  padding: 30px;
+  font-size: 40px;
+  color: rgb(239, 239, 248);
+  background-color: rgb(7, 7, 49);
+}
+.shagnal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  margin: 50px;
+}
+.shagnal > img {
+  width: 90%;
+}
